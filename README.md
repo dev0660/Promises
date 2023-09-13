@@ -11,4 +11,4 @@ In this file, I wrote code that downloads a video from a remote server and proce
 _Note: Rather than actually downloading or processing the video, I used the setTimeout() function to simulate the time that it takes for downloading and processing._
 
 # quotes.js and quotes.txt files
-These files contain asynchronous code which complicates the order in which code is run. To understand the problem a little better, I wrote some code to read a text file containing quotes, then randomly select one of the quotes and print it out for the user.
+These files contain asynchronous code which complicates the order in which code is run. To understand the problem a little better, I wrote some code that reads a text file containing quotes, and then one of the quotes is randomly selected and printed out for the user. Furthermore, quotes.js uses the fs module which enables interacting with the file system.
