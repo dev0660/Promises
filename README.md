@@ -10,3 +10,5 @@ This is due to the fact that *requestAnimationFrame()* is an asynchronous functi
 In this file, I wrote code that downloads a video from a remote server and processes it after the download completes.
 _Note: Rather than actually downloading or processing the video, I used the setTimeout() function to simulate the time that it takes for downloading and processing._
 
+# quotes.js and quotes.txt files
+These files contain asynchronous code which complicates the order in which code is run. To understand the problem a little better, I wrote some code to read a text file containing quotes, then randomly select one of the quotes and print it out for the user.
