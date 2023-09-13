@@ -1,3 +1,8 @@
+/**
+ * This code reads the contents of quotes.txt using the asynchronous fs.readFile() function. 
+ * In the readFile() callback function, it splits the file contents into lines and then randomly assigns
+ * one of the lines to the quote variable.
+ */
 const fs = require("fs");
 
 let quote = null;

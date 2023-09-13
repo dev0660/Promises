@@ -1,4 +1,8 @@
-//asynchronous code allows the web page and server to remain responsive while waiting for long-running tasks to complete.
+/**The download() and process() functions are both synchronous functions. 
+ * However, they both call setTimeout(), an asynchronous function.
+ * Asynchronous code allows the web page and server to remain responsive while waiting for long-running tasks 
+ * to complete.
+ */
 function download(url, callback) {
     console.log(`Start downloading video from ${url} ...`);
   
